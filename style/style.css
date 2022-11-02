@@ -16,3 +16,17 @@ body {
     float: right;
 }
 
+.estudante {
+    margin: 20px;
+}
+
+
+.estudante h3{
+    display: inline;
+    margin: 30px;
+}
+
+.estudante p {
+    display: inline;
+    margin: 30px;
+}
