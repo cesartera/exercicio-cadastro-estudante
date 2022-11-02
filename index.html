@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cadastro de Estudantes</title>
+</head>
+<body>
+    <div class="row">
+        <div class="left-col">
+            <h1>Cadastro de Estudante</h1><br>
+            <label for="nome">Nome:</label><br>
+            <input id="input-nome" type="text"><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input id="input-sobrenome" type="text"><br>
+            <label for="emmail">E-mail:</label><br>
+            <input id="input-email" type="text"><br>
+            <label for="turma">Turma:</label><br>
+            <select name="turma" id="input-turma">
+                <option value="1º Ano">1º Ano</option>
+                <option value="2º Ano">2º Ano</option>
+                <option value="3º Ano">3º Ano</option>
+                <option value="4º Ano">4º Ano</option>
+                <option value="5º Ano">5º Ano</option>
+                <option value="6º Ano">6º Ano</option>
+                <option value="7º Ano">7º Ano</option>
+                <option value="8º Ano">8º Ano</option>
+            </select><br>
+            <label for="password">Senha</label><br>
+            <input id="input-password" type="password"><br>
+            <button id="btn-cadastrar" onclick="cadastrarEstudante()">Cadastrar</button>
+        </div>
+        <div class="right-col">
+            <h2>Estudantes Cadastrados:</h2>          
+        </div>
+    </div>
+  
+    
+<script src="app/app.js"></script>
+</body>
+</html>
